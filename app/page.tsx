@@ -108,6 +108,7 @@ export default function Page() {
         <div className="relative z-10 max-w-3xl">
           <p className="mb-7 text-xs font-semibold uppercase tracking-[0.28em] text-primary">Chicago · 2026</p>
           <h1 className="max-w-3xl text-balance text-5xl font-semibold leading-[0.98] tracking-[-0.06em] sm:text-6xl lg:text-8xl">{event.name}</h1>
+          <p className="mt-5 text-sm font-semibold tracking-[0.16em] text-primary">Now on GitHub</p>
           <p className="mt-8 max-w-xl text-lg leading-8 text-muted-foreground sm:text-xl">A free afternoon for the people learning, building, and starting their careers in web development.</p>
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <button type="button" onClick={openRegistration} className="inline-flex items-center gap-3 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground transition-transform hover:-translate-y-0.5 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary">Register for Free <ArrowUpRight aria-hidden="true" /></button>
